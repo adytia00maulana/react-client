@@ -20,3 +20,6 @@ export const builder = new SchemaBuilder<{
 
 // 3
 builder.addScalarType("Date", DateResolver, {});
+
+// using custom query
+builder.queryType({});
